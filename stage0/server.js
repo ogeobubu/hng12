@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-app.get("/api/info", (req, res) => {
+app.get("/api", (req, res) => {
   const data = {
     email: "ogeobubu@gmail.com",
     current_datetime: new Date().toISOString(),
@@ -12,5 +12,5 @@ app.get("/api/info", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`API running at http://localhost:${port}/api/info`);
+  console.log(`API running at http://localhost:${port}/api`);
 });
