@@ -1,4 +1,3 @@
-```markdown
 # My Node.js API
 
 ## Description
